@@ -1,0 +1,31 @@
+TIME COMPLEXITY
+*Time complexity != Time Taken*
+Time complexity means the angle at which the time taken increases with respect to the input size.
+How do we compute it(Note: We take the time complexity value of worst case scenario)?
+->Big-Oh Notation 
+How do we write the Big-Oh Notation
+-> O(time taken)
+For eg:
+for(i=0;i<N;i++){
+	cout << “Hey World!”;
+}
+Its Big-Oh Notation is: O(N*3)
+Key points to remember while calculating Time Complexity
+1. We take the worst case scenario value possible 
+2. Avoid constants
+3. Avoid Lower Value
+Three types of complexity:
+  1. Big-Oh(Worst Case Scenario)
+  2. Theta(Average Case Scenario)
+  3. Omega(Best Case Scenario)  	
+
+  SPACE COMPLEXITY
+It is the memory space that your program takes.We use Big-Oh Notation here also as memory space can vary from system to system but Big-Oh is universal.
+In brief we can say space complexity is: Auxiliary Space(it is the space that you take to solve the problem) + Input Space(it is the space that you take to store the input)
+For eg: if we take two variables and input value
+a= 2
+b= 3
+Then c = a+b
+Then auxiliary space is 1 which is counted for ‘c’ and input space is 2 which is counted for ‘a’ and ‘b’ thus, the final space complexity is: O(3)
+NOTE: Never do anything to the input until and unless someone asks you to do it.
+NOTE: Most of the Computer Programming servers take about 1sec for 10**8 operations.
