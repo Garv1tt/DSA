@@ -197,3 +197,13 @@ using namespace std;
 //     }
 //     return 0;
 // }
+// Pattern-16
+// int main(){
+//     for(int i=0;i<6;i++){
+//         for(int j=0;j<=i;j++){
+//             cout << char('A'+i);
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
