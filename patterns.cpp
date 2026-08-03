@@ -122,7 +122,31 @@ using namespace std;
 //     }
 // }
 // Pattern-10
-int main(){
-    
-    return 0;
-}
+// int main(){
+//     for(int i=0;i<4;i++){
+//         for(int j=0;j<=i;j++){
+//             cout << "*";
+//         }
+//         cout << endl;
+//     }
+//     for(int i=0;i<4-1;i++){
+//         for(int j=0;j<4-1-i;j++){
+//             cout << "*";
+//         }
+//         cout << endl;
+//     }  
+// };
+// Pattern-11
+// int main(){
+//     int start = 1;
+//     for(int i=0;i<5;i++){
+//         if(i%2==0) start=1;
+//         else start=0;
+//         for(int j=0;j<=i;j++){
+//             cout << start << " ";
+//             start = 1-start;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
