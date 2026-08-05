@@ -8,8 +8,7 @@ using namespace std;
 //             cout << "*";
 //         }
 //         cout << endl;
-//     }
-    
+//     }   
 //     return 0;
 // }
 // Pattern-2
@@ -290,4 +289,29 @@ using namespace std;
 //         cout << endl;
 //     }
 //     return 0;
+// }
+// Pattern-21
+// int main(){
+//     for(int i=0;i<4;i++){
+//         for(int j=0;j<4;j++){
+//             if( i==0 || j==0 || i==4-1 || j==4-1){
+//                 cout << "*";
+//             }
+//             else cout << " ";
+//         }
+//         cout << endl;
+//     }
+// }
+// Pattern-22
+// int main(){
+//     for(int i=0;i<2*4-1;i++){
+//         for(int j=0;j<2*4-1;j++){
+//             int top = i;
+//             int left = j;
+//             int right = (2*4-2)-j;
+//             int bottom = (2*4-2)-i;
+//             cout << (4-min(min(top,bottom),min(left,right))) << " ";
+//         }
+//         cout << endl;
+//     }
 // }
