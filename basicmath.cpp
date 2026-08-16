@@ -85,14 +85,14 @@ using namespace std;
 //         }
 //     }
 //     cout << "[";
-
-// for(int i = 0; i < arr.size(); i++){
-//     cout << arr[i];
-
-//     if(i != arr.size() - 1){
-//         cout << ",";
-//     }
-// }
+//     for(int i = 0; i < arr.size(); i++){
+//         cout << arr[i];
+//         if(i != arr.size() - 1){
+//             cout << ",";
+//         }
+//     }   
+//     cout << "]";
+// };
 
 // cout << "]";
 // }
@@ -109,3 +109,39 @@ using namespace std;
 //         cout << "Yes";
 //         return 0;
 // }
+// int main(){
+//     GCD of Two Numbers
+//     int n1,n2;
+//     cin >> n1 >> n2;
+//      for(int i=min(n1,n2);i>=1;i--){
+//         if(n1%i==0 && n2%i==0){
+//             cout << i;
+//             break;
+//         }
+//      }
+//     return 0;
+// }
+
+
+// Euclidian Algortiham
+// gcd(n1,n2)=gcd(n1%n2,n2) we do this until one reaches zero  where n1>n2 
+
+int main(){
+    int a,b;
+    cin >> a >> b;
+    while(a>0 && b>0){
+        if(a>b){
+            a=a%b;
+        }
+        else {
+            b=b%a;
+        }
+    }
+    if(a==0){
+        cout << b;
+    }
+    else {
+        cout << a;
+    }
+}
+// this is the same as GCD of two number but the one we did earlier was in brute force and this is in best case scenarioand its tc is O(log base phai and (min(a,b))
